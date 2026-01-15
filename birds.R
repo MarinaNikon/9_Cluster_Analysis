@@ -37,7 +37,7 @@ library(dplyr) # for data cleaning and data management
 #QUESTIONS:
 #Import ‘Bird’ data in R.
 # Load the data
-birds<-read.csv(file.choose(), header = TRUE)
+birds<-read.csv("Bird.csv", header = TRUE)
 head(birds) # View first 6 rows
 dim(birds) # Check the dimension of the dataset
 summary(birds) #Summarizing data and checking for missing values
